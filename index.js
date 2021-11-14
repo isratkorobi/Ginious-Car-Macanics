@@ -29,7 +29,7 @@ async function run(){
             res.send(services);
         });
 
-        // GET SINGLE SERVICE
+        // GET SINGLE SERViCE
         app.get('/services/:id', async (req, res)=>{
             const id = req.params.id;
             console.log('getting specified service', id);
